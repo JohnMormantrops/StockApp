@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(225, 235, 222);
+  padding: 10px;
+}
+.container {
+  display: flex;
+}
+.empbtn {
+  background-color: blue;
+  color: white;
+}
+.orders {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+.buttons {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 700px;
+  border-radius: 25px;
+  align-items: center;
+}
+.buttons:hover {
+  transform: scale(1.1);
+}
+.buybtn {
+  background: #50ff10;
+  color: white;
+  marginleft: auto;
+}
+
+.li {
+  list-style-type: none;
+}
